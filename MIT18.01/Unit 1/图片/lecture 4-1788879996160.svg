@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="1240" viewBox="0 0 920 1240" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC','Segoe UI',Arial,sans-serif">
+<rect width="920" height="1240" fill="#FBFAF7"/>
+<text x="40" y="32" font-size="15" font-weight="600" fill="#1A1B1C">MIT 18.01 Session 9–12 · 求导法则体系（Product / Quotient / Chain Rule + Higher Derivatives）· 复习思维导图</text>
+<path d="M 216 675.0 C 246 675.0, 236 126.0, 266 126.0" fill="none" stroke="#9BBBF4" stroke-width="2.6" stroke-opacity="0.9"/>
+<path d="M 216 675.0 C 246 675.0, 236 318.0, 266 318.0" fill="none" stroke="#94D8C3" stroke-width="2.6" stroke-opacity="0.9"/>
+<path d="M 216 675.0 C 246 675.0, 236 534.0, 266 534.0" fill="none" stroke="#8BC8EA" stroke-width="2.6" stroke-opacity="0.9"/>
+<path d="M 216 675.0 C 246 675.0, 236 774.0, 266 774.0" fill="none" stroke="#E1B98F" stroke-width="2.6" stroke-opacity="0.9"/>
+<path d="M 216 675.0 C 246 675.0, 236 1038.0, 266 1038.0" fill="none" stroke="#C9A7E8" stroke-width="2.6" stroke-opacity="0.9"/>
+<path d="M 454 126.0 C 484 126.0, 452 101.0, 482 101.0" fill="none" stroke="#9BBBF4" stroke-width="1.5" stroke-opacity="0.75"/>
+<path d="M 454 126.0 C 484 126.0, 452 149.0, 482 149.0" fill="none" stroke="#9BBBF4" stroke-width="1.5" stroke-opacity="0.75"/>
+<path d="M 454 126.0 C 484 126.0, 452 197.0, 482 197.0" fill="none" stroke="#9BBBF4" stroke-width="1.5" stroke-opacity="0.75"/>
+<rect x="266" y="54.0" width="188" height="144.0" rx="14" fill="#9BBBF4" fill-opacity="0.92" stroke="rgba(0,0,0,0.10)" stroke-width="1"/>
+<text x="360.0" y="120.0" text-anchor="middle" font-size="16" font-weight="700" fill="#1A1B1C">① 基础回顾</text>
+<text x="360.0" y="143.0" text-anchor="middle" font-size="12.5" fill="rgba(26,27,28,0.72)">Prerequisites</text>
+<rect x="482" y="82" width="392" height="38" rx="10" fill="#9BBBF4" fill-opacity="0.16" stroke="#9BBBF4" stroke-width="1.2"/>
+<text x="500" y="106.0" font-size="14.5" fill="#1A1B1C">幂法则 Power Rule：(x^n)′ = n·x^(n−1)，负指数也成立</text>
+<rect x="482" y="130" width="392" height="38" rx="10" fill="#9BBBF4" fill-opacity="0.16" stroke="#9BBBF4" stroke-width="1.2"/>
+<text x="500" y="154.0" font-size="14.5" fill="#1A1B1C">常数倍 (cu)′ = c·u′；和法则 (u+v)′ = u′+v′</text>
+<rect x="482" y="178" width="392" height="38" rx="10" fill="#9BBBF4" fill-opacity="0.16" stroke="#9BBBF4" stroke-width="1.2"/>
+<text x="500" y="202.0" font-size="14.5" fill="#1A1B1C">(sin x)′ = cos x，(cos x)′ = −sin x</text>
+<path d="M 454 318.0 C 484 318.0, 452 269.0, 482 269.0" fill="none" stroke="#94D8C3" stroke-width="1.5" stroke-opacity="0.75"/>
+<path d="M 454 318.0 C 484 318.0, 452 317.0, 482 317.0" fill="none" stroke="#94D8C3" stroke-width="1.5" stroke-opacity="0.75"/>
+<path d="M 454 318.0 C 484 318.0, 452 365.0, 482 365.0" fill="none" stroke="#94D8C3" stroke-width="1.5" stroke-opacity="0.75"/>
+<path d="M 454 318.0 C 484 318.0, 452 413.0, 482 413.0" fill="none" stroke="#94D8C3" stroke-width="1.5" stroke-opacity="0.75"/>
+<rect x="266" y="222.0" width="188" height="192.0" rx="14" fill="#94D8C3" fill-opacity="0.92" stroke="rgba(0,0,0,0.10)" stroke-width="1"/>
+<text x="360.0" y="312.0" text-anchor="middle" font-size="16" font-weight="700" fill="#1A1B1C">② 乘法法则 Product</text>
+<text x="360.0" y="335.0" text-anchor="middle" font-size="12.5" fill="rgba(26,27,28,0.72)">Session 9</text>
+<rect x="482" y="250" width="392" height="38" rx="10" fill="#94D8C3" fill-opacity="0.16" stroke="#94D8C3" stroke-width="1.2"/>
+<text x="500" y="274.0" font-size="14.5" fill="#1A1B1C">公式：(uv)′ = u′v + uv′，一次只导一个</text>
+<rect x="482" y="298" width="392" height="38" rx="10" fill="#94D8C3" fill-opacity="0.16" stroke="#94D8C3" stroke-width="1.2"/>
+<text x="500" y="322.0" font-size="14.5" fill="#1A1B1C">推广：(uvw)′ = u′vw + uv′w + uvw′</text>
+<rect x="482" y="346" width="392" height="38" rx="10" fill="#94D8C3" fill-opacity="0.16" stroke="#94D8C3" stroke-width="1.2"/>
+<text x="500" y="370.0" font-size="14.5" fill="#1A1B1C">例：(x^n sin x)′ = n·x^(n−1) sin x + x^n cos x</text>
+<rect x="482" y="394" width="392" height="38" rx="10" fill="#94D8C3" fill-opacity="0.16" stroke="#94D8C3" stroke-width="1.2"/>
+<text x="500" y="418.0" font-size="14.5" fill="#1A1B1C">证明：导数定义 →「加零」拆分 → 可微 ⇒ 连续</text>
+<path d="M 454 534.0 C 484 534.0, 452 485.0, 482 485.0" fill="none" stroke="#8BC8EA" stroke-width="1.5" stroke-opacity="0.75"/>
+<path d="M 454 534.0 C 484 534.0, 452 533.0, 482 533.0" fill="none" stroke="#8BC8EA" stroke-width="1.5" stroke-opacity="0.75"/>
+<path d="M 454 534.0 C 484 534.0, 452 581.0, 482 581.0" fill="none" stroke="#8BC8EA" stroke-width="1.5" stroke-opacity="0.75"/>
+<path d="M 454 534.0 C 484 534.0, 452 629.0, 482 629.0" fill="none" stroke="#8BC8EA" stroke-width="1.5" stroke-opacity="0.75"/>
+<rect x="266" y="438.0" width="188" height="192.0" rx="14" fill="#8BC8EA" fill-opacity="0.92" stroke="rgba(0,0,0,0.10)" stroke-width="1"/>
+<text x="360.0" y="528.0" text-anchor="middle" font-size="16" font-weight="700" fill="#1A1B1C">③ 除法法则 Quotient</text>
+<text x="360.0" y="551.0" text-anchor="middle" font-size="12.5" fill="rgba(26,27,28,0.72)">Session 9–10</text>
+<rect x="482" y="466" width="392" height="38" rx="10" fill="#8BC8EA" fill-opacity="0.16" stroke="#8BC8EA" stroke-width="1.2"/>
+<text x="500" y="490.0" font-size="14.5" fill="#1A1B1C">公式：(u/v)′ = (u′v − uv′)/v²，v ≠ 0，减号勿反</text>
+<rect x="482" y="514" width="392" height="38" rx="10" fill="#8BC8EA" fill-opacity="0.16" stroke="#8BC8EA" stroke-width="1.2"/>
+<text x="500" y="538.0" font-size="14.5" fill="#1A1B1C">证明：引入增量 Δu、Δv，通分化简差商</text>
+<rect x="482" y="562" width="392" height="38" rx="10" fill="#8BC8EA" fill-opacity="0.16" stroke="#8BC8EA" stroke-width="1.2"/>
+<text x="500" y="586.0" font-size="14.5" fill="#1A1B1C">倒数法则 Reciprocal（u=1）：(1/v)′ = −v′/v²</text>
+<rect x="482" y="610" width="392" height="38" rx="10" fill="#8BC8EA" fill-opacity="0.16" stroke="#8BC8EA" stroke-width="1.2"/>
+<text x="500" y="634.0" font-size="14.5" fill="#1A1B1C">例：(1/x^n)′ = −n·x^(−n−1) → 幂法则扩到负指数</text>
+<path d="M 454 774.0 C 484 774.0, 452 701.0, 482 701.0" fill="none" stroke="#E1B98F" stroke-width="1.5" stroke-opacity="0.75"/>
+<path d="M 454 774.0 C 484 774.0, 452 749.0, 482 749.0" fill="none" stroke="#E1B98F" stroke-width="1.5" stroke-opacity="0.75"/>
+<path d="M 454 774.0 C 484 774.0, 452 797.0, 482 797.0" fill="none" stroke="#E1B98F" stroke-width="1.5" stroke-opacity="0.75"/>
+<path d="M 454 774.0 C 484 774.0, 452 845.0, 482 845.0" fill="none" stroke="#E1B98F" stroke-width="1.5" stroke-opacity="0.75"/>
+<path d="M 454 774.0 C 484 774.0, 452 893.0, 482 893.0" fill="none" stroke="#E1B98F" stroke-width="1.5" stroke-opacity="0.75"/>
+<rect x="266" y="654.0" width="188" height="240.0" rx="14" fill="#E1B98F" fill-opacity="0.92" stroke="rgba(0,0,0,0.10)" stroke-width="1"/>
+<text x="360.0" y="768.0" text-anchor="middle" font-size="16" font-weight="700" fill="#1A1B1C">④ 链式法则 Chain</text>
+<text x="360.0" y="791.0" text-anchor="middle" font-size="12.5" fill="rgba(26,27,28,0.72)">Session 11</text>
+<rect x="482" y="682" width="392" height="38" rx="10" fill="#E1B98F" fill-opacity="0.16" stroke="#E1B98F" stroke-width="1.2"/>
+<text x="500" y="706.0" font-size="14.5" fill="#1A1B1C">复合函数 composition：y = f(g(x))，内层 g、外层 f</text>
+<rect x="482" y="730" width="392" height="38" rx="10" fill="#E1B98F" fill-opacity="0.16" stroke="#E1B98F" stroke-width="1.2"/>
+<text x="500" y="754.0" font-size="14.5" fill="#1A1B1C">差商推导：Δy/Δt = (Δy/Δx)·(Δx/Δt)，Δx 约掉</text>
+<rect x="482" y="778" width="392" height="38" rx="10" fill="#E1B98F" fill-opacity="0.16" stroke="#E1B98F" stroke-width="1.2"/>
+<text x="500" y="802.0" font-size="14.5" fill="#1A1B1C">公式：dy/dt = (dy/dx)(dx/dt)，即 f′(g(x))·g′(x)</text>
+<rect x="482" y="826" width="392" height="38" rx="10" fill="#E1B98F" fill-opacity="0.16" stroke="#E1B98F" stroke-width="1.2"/>
+<text x="500" y="850.0" font-size="14.5" fill="#1A1B1C">例：(sin^10 t)′ = 10 sin^9 t·cos t</text>
+<rect x="482" y="874" width="392" height="38" rx="10" fill="#E1B98F" fill-opacity="0.16" stroke="#E1B98F" stroke-width="1.2"/>
+<text x="500" y="898.0" font-size="14.5" fill="#1A1B1C">收尾：中间变量最后必须代回原变量</text>
+<path d="M 454 1038.0 C 484 1038.0, 452 965.0, 482 965.0" fill="none" stroke="#C9A7E8" stroke-width="1.5" stroke-opacity="0.75"/>
+<path d="M 454 1038.0 C 484 1038.0, 452 1013.0, 482 1013.0" fill="none" stroke="#C9A7E8" stroke-width="1.5" stroke-opacity="0.75"/>
+<path d="M 454 1038.0 C 484 1038.0, 452 1061.0, 482 1061.0" fill="none" stroke="#C9A7E8" stroke-width="1.5" stroke-opacity="0.75"/>
+<path d="M 454 1038.0 C 484 1038.0, 452 1109.0, 482 1109.0" fill="none" stroke="#C9A7E8" stroke-width="1.5" stroke-opacity="0.75"/>
+<path d="M 454 1038.0 C 484 1038.0, 452 1157.0, 482 1157.0" fill="none" stroke="#C9A7E8" stroke-width="1.5" stroke-opacity="0.75"/>
+<rect x="266" y="918.0" width="188" height="240.0" rx="14" fill="#C9A7E8" fill-opacity="0.92" stroke="rgba(0,0,0,0.10)" stroke-width="1"/>
+<text x="360.0" y="1032.0" text-anchor="middle" font-size="16" font-weight="700" fill="#1A1B1C">⑤ 高阶导数 Higher</text>
+<text x="360.0" y="1055.0" text-anchor="middle" font-size="12.5" fill="rgba(26,27,28,0.72)">Session 12</text>
+<rect x="482" y="946" width="392" height="38" rx="10" fill="#C9A7E8" fill-opacity="0.16" stroke="#C9A7E8" stroke-width="1.2"/>
+<text x="500" y="970.0" font-size="14.5" fill="#1A1B1C">逐阶求导：u′ → u″ → u^(3) → … → u^(n)</text>
+<rect x="482" y="994" width="392" height="38" rx="10" fill="#C9A7E8" fill-opacity="0.16" stroke="#C9A7E8" stroke-width="1.2"/>
+<text x="500" y="1018.0" font-size="14.5" fill="#1A1B1C">例：sin x 四阶一循环、回到自身（特例）</text>
+<rect x="482" y="1042" width="392" height="38" rx="10" fill="#C9A7E8" fill-opacity="0.16" stroke="#C9A7E8" stroke-width="1.2"/>
+<text x="500" y="1066.0" font-size="14.5" fill="#1A1B1C">四套记号：prime 撇号 / D 算子 / Leibniz / 算子幂</text>
+<rect x="482" y="1090" width="392" height="38" rx="10" fill="#C9A7E8" fill-opacity="0.16" stroke="#C9A7E8" stroke-width="1.2"/>
+<text x="500" y="1114.0" font-size="14.5" fill="#1A1B1C">D^n x^n = n!（阶乘，常数），可由数学归纳法证明</text>
+<rect x="482" y="1138" width="392" height="38" rx="10" fill="#C9A7E8" fill-opacity="0.16" stroke="#C9A7E8" stroke-width="1.2"/>
+<text x="500" y="1162.0" font-size="14.5" fill="#1A1B1C">D^(n+1) x^n = 0（常数的导数为 0）</text>
+<rect x="36" y="625.0" width="180" height="128" rx="16" fill="#2F4B7C"/>
+<text x="126.0" y="655.0" text-anchor="middle" font-size="19" font-weight="700" fill="#FFFFFF">MIT 18.01</text>
+<text x="126.0" y="681.0" text-anchor="middle" font-size="19" font-weight="700" fill="#FFFFFF">Session 9–12</text>
+<text x="126.0" y="707.0" text-anchor="middle" font-size="16.5" font-weight="700" fill="#FFFFFF">求导法则体系</text>
+<text x="126.0" y="733.0" text-anchor="middle" font-size="16.5" font-weight="700" fill="#FFFFFF">Differentiation</text>
+<text x="40" y="1224" font-size="12" fill="#6B7280">主线：基础法则回顾 → 乘法 / 除法法则（S9–10，含定义证明与负指数推广）→ 复合函数链式法则（S11）→ 高阶导数与多套记号（S12）。</text>
+</svg>
