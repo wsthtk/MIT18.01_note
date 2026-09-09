@@ -22,10 +22,12 @@ MIT 18.01 是最经典的微积分公开课之一，但官方讲义是全英文 
 ## 特性
 
 - **复习向精炼**：每讲只保留核心定义、定理、推导骨架与易错点
+- **个人重点导航**：每讲开头置顶你自己标记的重点（锚点跳转列表）
+- **思考与问答**：正文"补充"入口 ↔ 文末 AI 问答区，保留提问原话与完整解答
+- **英文术语标注**：重要术语首次出现处标注英文原文
+- **每讲思维导图**：文末附独立 SVG 思维导图（存放于“图片”目录下）
 - **LaTeX 公式**：行内 `$...$`，块级 `$$...$$`，严格区分
 - **Obsidian Callout**：重点 / 注意 / 技巧用 callout 高亮
-- **英文术语标注**：重要术语首次出现处标注英文原文
-- **每讲思维导图**：文末附 Mermaid `graph LR` 流程图
 - **AI 辅助整理**：整理提示词公开在 `MIT18.01/提示词.md`，欢迎复用
 - **课程地图**：完整 Session 索引见 `MIT18.01/map.md`
 
@@ -36,14 +38,17 @@ MIT18.01_note/
 ├── README.md
 └── MIT18.01/
     ├── Unit 1/                  # Unit 1 Differentiation 微分
-    │   ├── 图片/                # 本单元图片素材
+    │   ├── 图片/                # 本单元图片素材（含每讲思维导图 SVG）
     │   ├── lecture 1.md         # Lecture 1（Session 1-2）
-    │   └── lecture 2.md         # Lecture 2（Session 3-5）
+    │   ├── lecture 2.md         # Lecture 2（Session 3-5）
+    │   ├── lecture 3.md         # Lecture 3（Session 6-8）
+    │   └── lecture 4.md         # Lecture 4（Session 9-12）
     ├── 提示词.md                 # AI 整理笔记的提示词（可复用）
     └── map.md                   # 课程地图：全部 Session 索引
+
 ```
 
-> 目前进度：**Unit 1 进行中**（已完成 Lecture 1、Lecture 2），后续 Unit 持续更新。
+> 目前进度：**Unit 1 进行中**（已完成 part A，即 session 1 ~ 12），后续 Unit 持续更新。
 
 ## 课程单元（18.01SC 完整规划）
 
@@ -70,9 +75,9 @@ MIT18.01_note/
 
 1. `git clone https://github.com/wsthtk/MIT18.01_note.git`，或直接下载 ZIP
 2. 用 [Obsidian](https://obsidian.md) 打开仓库文件夹（Open folder as vault）
-3. 无需额外插件：公式（MathJax）、Callout、Mermaid 均为 Obsidian 内置能力
+3. 无需额外插件：公式（MathJax）、Callout SVG 嵌入显示均为 Obsidian 内置能力
 
-GitHub 网页端也支持直接渲染本仓库的 Mermaid 思维导图。
+GitHub 网页端可直接显示嵌入的 SVG 图片
 
 ## 笔记规范
 
@@ -81,12 +86,13 @@ GitHub 网页端也支持直接渲染本仓库的 Mermaid 思维导图。
 | 规范项 | 约定 |
 | --- | --- |
 | 定位 | 复习向，适当精炼，不照搬讲义全文 |
+| 个人重点 | 开头设 `# 重点`，用跳转链接列出你标记的重点（`[标题](#锚点)` 指向正文）|
 | 公式 | 行内 `$...$`，块级 `$$...$$`，严格区分、不可混用 |
 | 术语 | 重要术语标注英文原文 |
 | 图片 | 先用文字简单描述占位，后续自行补充（图片放对应 Unit 的 `图片/` 目录） |
 | 强调块 | Obsidian Callout 语法（`> [!note]` 等） |
-| 思维导图 | 每讲文末附 Mermaid `graph LR` 流程图 |
-| 导图安全 | 含括号、方括号、冒号、箭头、等号、斜杠的文本必须用双引号包裹，如 `A["f'(x0) = lim(Δx→0) Δf/Δx"]`；公式密集场景放弃 mindmap，一律使用 flowchart（实测 mindmap 中即使加引号也可能报错） |
+| 思考与问答 | 正文在对应处留 `### 补充` 入口（`[补充 N](lecture x.md#补充 N)`）；文末以 `# 补充 N` 区块存放你的提问原话与 AI 回答，编号互相对应 |
+| 思维导图 | 每讲文末附独立 SVG （引用方式：`![](./图片/xxx.svg)`）" |
 
 
 ## 如何贡献
