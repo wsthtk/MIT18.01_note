@@ -31,4 +31,16 @@ Session 下面的 solution 文件包含了 problem 文件
 		- Session 11: Chain Rule 第 11 节：链式法则
 		- Session 12: Higher Derivatives 第 12 节：高阶导数
 	- Problem Set 1 第 13 节：练习题1
+- Part B: Implicit Differentiation and Inverse Functions B部分：隐函数求导与反函数
+	- Lecture 5
+		- Session 13: Implicit Differentiation 第13讲：隐函数求导
+		- Session 14: Examples of Implicit Differentiation 第14讲：隐函数求导的例子
+		- Session 15: Implicit Differentiation and Inverse Functions 第15讲：隐函数求导与反函数
+	- Lecture 6
+		- Session 16: The Derivative of a {{< sup “x” >}} 第16讲：函数的导数（x的导数）
+	- Session 17: The Exponential Function, its Derivative, and its Inverse 第17节：指数函数、其导数及其反函数
+	- Session 18: Derivatives of other Exponential Functions 第18讲：其他指数函数的导数
+	- Session 19: An Interesting Limit Involving e 第19讲：涉及e的一个有趣的极限
+	- Session 20: Hyperbolic Trig Functions 第20讲：双曲三角函数
+	- Problem Set 2 第2次作业
 
