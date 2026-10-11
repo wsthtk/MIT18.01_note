@@ -108,8 +108,8 @@ $$2y\,y'-2x=0\quad\Longrightarrow\quad y'=\frac{x}{y}$$
 - 例：$f(x)=\sqrt{x}$ 与 $g(x)=x^2$（限 $x>0$）互为反函数。
 - 图像关系：把 $f$ 图像上每个点的 $x,y$ 坐标互换，即**关于直线 $y=x$ 对称（reflection across $y=x$）**。
 
-> [!note]- 图像（待补充）
-> $f(x)=\sqrt{x}$ 与 $f^{-1}(x)=x^2$（$x>0$）的图像关于直线 $y=x$ 对称。
+> ![](./图片/lecture%205-1791686143652.png)
+> $f(x)=\sqrt{x}$ 与 $f^{-1}(x)=x^2$（$x>0$)的图像关于直线 $y=x$ 对称。
 
 ### 2. 反函数求导公式
 
@@ -129,7 +129,9 @@ $$\sec^2 y\cdot y'=1\quad\Longrightarrow\quad y'=\cos^2 y$$
 需要换回 $x$。由 $\tan y=x$ 作直角三角形：对边为 $x$、邻边为 $1$、斜边为 $\sqrt{1+x^2}$，故
 $$\cos y=\frac{1}{\sqrt{1+x^2}}$$
 $$\boxed{\frac{d}{dx}\arctan x=\frac{1}{1+x^2}}$$
-> [!note]- 图像（待补充）
+
+> ![](./图片/lecture%205-1791686143653.png)
+> ![](./图片/lecture%205-1791686143654.png)
 > $\tan x$ 在 $\left(-\frac{\pi}{2},\frac{\pi}{2}\right)$ 上由 $-\infty$ 增至 $+\infty$；关于 $y=x$ 反射得到 $\arctan x$：**定义域（domain）**为 $\mathbb{R}$，**值域（range）**为 $\left(-\frac{\pi}{2},\frac{\pi}{2}\right)$，有两条**水平渐近线（horizontal asymptote）** $y=\pm\frac{\pi}{2}$。
 
 ### 4. $\arcsin x$ 的导数
