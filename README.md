@@ -42,13 +42,14 @@ MIT18.01_note/
     │   ├── lecture 1.md         # Lecture 1（Session 1-2）
     │   ├── lecture 2.md         # Lecture 2（Session 3-5）
     │   ├── lecture 3.md         # Lecture 3（Session 6-8）
-    │   └── lecture 4.md         # Lecture 4（Session 9-12）
+    │   ├── lecture 4.md         # Lecture 4（Session 9-12）
+    │   └── lecture 5.md         # Lecture 5（Session 13-15）
     ├── 提示词.md                 # AI 整理笔记的提示词（可复用）
     └── map.md                   # 课程地图：全部 Session 索引
 
 ```
 
-> 目前进度：**Unit 1 进行中**（已完成 part A，即 session 1 ~ 12），后续 Unit 持续更新。
+> 目前进度：**Unit 1 进行中**（已完成 Lecture 1–5，即 session 1 ~ 15），后续持续更新。
 
 ## 课程单元（18.01SC 完整规划）
 
