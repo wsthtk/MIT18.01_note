@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 280" font-family="'PingFang SC','Microsoft YaHei',sans-serif">
+  <rect width="780" height="280" fill="#ffffff"/>
+  <!-- axes panel 1 -->
+  <line x1="40" y1="220" x2="365" y2="220" stroke="#94a3b8" stroke-width="1.4"/>
+  <line x1="40" y1="40" x2="40" y2="225" stroke="#94a3b8" stroke-width="1.4"/>
+  <text x="360" y="238" fill="#64748b" font-size="12">x</text>
+  <!-- axes panel 2 -->
+  <line x1="420" y1="220" x2="745" y2="220" stroke="#94a3b8" stroke-width="1.4"/>
+  <line x1="420" y1="40" x2="420" y2="225" stroke="#94a3b8" stroke-width="1.4"/>
+  <text x="740" y="238" fill="#64748b" font-size="12">x</text>
+
+  <!-- y = ln x curve -->
+  <polyline points="53.6,178.5 87.7,142.9 155.7,107.2 223.8,86.4 292.3,71.6 360,60.1"
+            fill="none" stroke="#2563eb" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="250" y="58" fill="#2563eb" font-size="15" font-weight="600">y = ln x</text>
+
+  <!-- tangent line at x=1 on ln x: slope 1, through (1,0) -->
+  <line x1="60" y1="170.6" x2="130" y2="115.9" stroke="#dc2626" stroke-width="1.6" stroke-dasharray="5 3"/>
+  <circle cx="87.7" cy="142.9" r="3.2" fill="#dc2626"/>
+
+  <!-- y' = 1/x curve -->
+  <polyline points="433.6,40 467.7,91.4 535.7,117.1 603.8,125.7 672.3,130 740,132.6"
+            fill="none" stroke="#0d9488" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="600" y="112" fill="#0d9488" font-size="15" font-weight="600">y′ = 1/x</text>
+  <circle cx="467.7" cy="91.4" r="3.2" fill="#dc2626"/>
+
+  <text x="390" y="262" text-anchor="middle" fill="#64748b" font-size="12.5">
+    左：y=ln x 的切线斜率恒为正、逐渐变平缓；右：把这些斜率作为高度画出，正是 y′=1/x（红点 x=1 处斜率=1）
+  </text>
+</svg>

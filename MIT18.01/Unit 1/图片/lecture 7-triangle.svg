@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 260" font-family="'PingFang SC','Microsoft YaHei',sans-serif">
+  <rect width="360" height="260" fill="#ffffff"/>
+  <!-- triangle: A(40,210) B(300,210) C(300,60), right angle at B -->
+  <polygon points="40,210 300,210 300,60" fill="#eff6ff" stroke="#1e3a8a" stroke-width="2.2" stroke-linejoin="round"/>
+  <!-- right angle marker -->
+  <polyline points="300,195 285,195 285,210" fill="none" stroke="#1e3a8a" stroke-width="1.6"/>
+  <!-- angle arc at A -->
+  <path d="M 75 210 A 35 35 0 0 0 70.4 192.5" fill="none" stroke="#dc2626" stroke-width="1.8"/>
+  <text x="86" y="200" fill="#dc2626" font-size="16" font-style="italic">y</text>
+  <!-- labels -->
+  <text x="170" y="232" text-anchor="middle" fill="#0f172a" font-size="16">cos y = √(1−x²)</text>
+  <text x="316" y="138" fill="#0f172a" font-size="16">sin y = x</text>
+  <text x="150" y="128" fill="#0f172a" font-size="15" transform="rotate(-30 150 128)">斜边 = 1</text>
+  <text x="180" y="252" text-anchor="middle" fill="#64748b" font-size="12.5">由 sin y = x 构造直角三角形：邻边 = √(1−x²)，故 cos y = √(1−x²)</text>
+</svg>

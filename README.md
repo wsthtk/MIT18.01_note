@@ -28,7 +28,7 @@ MIT 18.01 是最经典的微积分公开课之一，但官方讲义是全英文 
 - **每讲思维导图**：文末附独立 SVG 思维导图（存放于“图片”目录下）
 - **LaTeX 公式**：行内 `$...$`，块级 `$$...$$`，严格区分
 - **Obsidian Callout**：重点 / 注意 / 技巧用 callout 高亮
-- **AI 辅助整理**：整理提示词公开在 `MIT18.01/提示词.md`，欢迎复用
+- **AI 规范化整理**：全套自动化工作流与整理法典公开在 [AGENTS.md](./AGENTS.md)，支持 Antigravity / Cursor 等 Agent 工具开箱即用，亦可作为 System Prompt 复制给任何大模型使用
 - **课程地图**：完整 Session 索引见 `MIT18.01/map.md`
 
 ## 目录结构
@@ -36,6 +36,7 @@ MIT 18.01 是最经典的微积分公开课之一，但官方讲义是全英文 
 ```
 MIT18.01_note/
 ├── README.md
+├── AGENTS.md                    # AI Agent 自动化整理规范与法典（可复用）
 └── MIT18.01/
     ├── Unit 1/                  # Unit 1 Differentiation 微分
     │   ├── 图片/                # 本单元图片素材（含每讲思维导图 SVG）
@@ -44,7 +45,6 @@ MIT18.01_note/
     │   ├── lecture 3.md         # Lecture 3（Session 6-8）
     │   ├── lecture 4.md         # Lecture 4（Session 9-12）
     │   └── lecture 5.md         # Lecture 5（Session 13-15）
-    ├── 提示词.md                 # AI 整理笔记的提示词（可复用）
     └── map.md                   # 课程地图：全部 Session 索引
 
 ```

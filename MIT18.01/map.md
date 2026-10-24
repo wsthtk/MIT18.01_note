@@ -14,29 +14,29 @@ Session 下面的 solution 文件包含了 problem 文件
 ## Unit 1 Differentiation  微分
 
 - Part A: Definition and Basic Rules 定义与基本规则
-	- Lecture 1: Derivatives, Slope, Velocity, and Rate of Change 导数、斜率、速度与变化率
+	- Lecture 1: Derivatives, Slope, Velocity, and Rate of Change 导数、斜率、速度与变化率[[lecture 1]]
 		- Session 1: Introduction to Derivatives 第 1 节：导数简介
 		- Session 2: Examples of Derivatives 第 2 节：导数示例
-	- Lecture 2: Limits, Continuity 极限与连续性
+	- Lecture 2: Limits, Continuity 极限与连续性[[lecture 2]]
 		- Session 3: Derivative as Rate of Change 第 3 节：导数作为变化率
 		- Session 4: Limits and Continuity 第 4 节：极限与连续性
 		- Session 5: Discontinuity 第 5 节：间断性
-	- Lecture 3: Derivatives 导数
+	- Lecture 3: Derivatives 导数[[lecture 3]]
 		- Session 6: Calculating Derivatives 第 6 节：导数的计算
 		- Session 7: Derivatives of Sine and Cosine 第 7 节：正弦和余弦的导数
 		- Session 8: Limits of Sine and Cosine 第 8 节：正弦和余弦的极限
-	- Lecture 4: Chain Rule 链式法则
+	- Lecture 4: Chain Rule 链式法则[[lecture 4]]
 		- Session 9: Product Rule 第 9 节：乘积法则
 		- Session 10: Quotient Rule 第 10 节：商法则
 		- Session 11: Chain Rule 第 11 节：链式法则
 		- Session 12: Higher Derivatives 第 12 节：高阶导数
 	- Problem Set 1 练习题 1
 - Part B: Implicit Differentiation and Inverse Functions 隐函数求导与反函数
-	- Lecture 5: Implicit Differentiation 隐函数求导
+	- Lecture 5: Implicit Differentiation 隐函数求导[[lecture 5]]
 		- Session 13: Implicit Differentiation 第 13 节：隐函数求导
 		- Session 14: Examples of Implicit Differentiation 第 14 节：隐函数求导的例子
 		- Session 15: Implicit Differentiation and Inverse Functions 第 15 节：隐函数求导与反函数
-	- Lecture 6: Exponential and Log 指数函数与对数（含双曲函数）
+	- Lecture 6: Exponential and Log 指数函数与对数（含双曲函数）[[lecture 6]]
 		- Session 16: The Derivative of a^x 第 16 节：a^x 的导数
 		- Session 17: The Exponential Function, its Derivative, and its Inverse 第 17 节：指数函数、其导数及其反函数
 		- Session 18: Derivatives of other Exponential Functions 第 18 节：其他指数函数的导数
@@ -44,7 +44,7 @@ Session 下面的 solution 文件包含了 problem 文件
 		- Session 20: Hyperbolic Trig Functions 第 20 节：双曲三角函数
 	- Problem Set 2 练习题 2
 - Exam 1 考试 1
-	- Lecture 7: Exam 1 Review 考试 1 复习
+	- Lecture 7: Exam 1 Review 考试 1 复习 [[lecture 7]]
 		- Session 21: Review for Exam 1 第 21 节：考试 1 复习（用微分法则计算导数）
 	- (Lecture 8 无课；考试 1 当堂进行)
 		- Session 22: Materials for Exam 1 第 22 节：考试 1 材料
@@ -52,12 +52,12 @@ Session 下面的 solution 文件包含了 problem 文件
 ## Unit 2 Applications of Differentiation  微分的应用
 
 - Part A: Approximation and Curve Sketching 近似与曲线绘图
-	- Lecture 9: Linear and Quadratic Approximations 线性近似与二次近似
+	- Lecture 9: Linear and Quadratic Approximations 线性近似与二次近似 [[lecture 9]]
 		- Session 23: Linear Approximation 第 23 节：线性近似
 		- Session 24: Examples of Linear Approximation 第 24 节：线性近似的例子
 		- Session 25: Introduction to Quadratic Approximation 第 25 节：二次近似导论
-		- Session 26: Using Quadratic Approximations 第 26 节：二次近似的应用
 	- Lecture 10: Curve Sketching 曲线绘图
+		- Session 26: Using Quadratic Approximations 第 26 节：二次近似的应用
 		- Session 27: Sketching Graphs I - Polynomials and Rational Functions 第 27 节：图形绘制 I——多项式与有理函数
 		- Session 28: Sketching Graphs II - General Strategies 第 28 节：图形绘制 II——通用策略
 	- Problem Set 3 练习题 3
